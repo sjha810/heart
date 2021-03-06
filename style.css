@@ -8,6 +8,58 @@ body {
 	background: #000;
 	height: 100vh;
 }
+#form {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(224, 119, 119);
+	padding: 50px 20px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 5px #150e0e70;
+}
+
+#form label {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+}
+
+.btn {
+	text-align: center;
+}
+
+#my_input {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+}
+
+#my_input input {
+	margin: 10px;
+	padding: 10px 50px;
+	border-radius: 20px;
+	border: 1px solid rgb(214, 53, 53);
+	outline: none;
+	text-align: center;
+}
+button {
+	border: none;
+	padding: 10px 45px;
+	background-color: rgb(255, 213, 166);
+	color: rgb(231, 52, 52);
+	font-weight: bold;
+	border-radius: 20px;
+	transition: all 0.3s ease-in;
+	cursor: pointer;
+	outline: none;
+}
+button:hover {
+	background-color: rgb(255, 166, 166);
+	color: #fff;
+}
 
 span {
 	position: absolute;
